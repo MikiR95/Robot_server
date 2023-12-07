@@ -1,0 +1,24 @@
+[3.440s] Invoking command in '/home/pi/Robot_server/ros2_ws/build/camera_pkg': PYTHONPATH=/home/pi/Robot_server/ros2_ws/build/camera_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Robot_server/ros2_ws/build/camera_pkg/build --no-deps install_data
+[4.501s] running develop
+[5.050s] running egg_info
+[5.050s] creating camera_pkg.egg-info
+[5.051s] writing camera_pkg.egg-info/PKG-INFO
+[5.052s] writing dependency_links to camera_pkg.egg-info/dependency_links.txt
+[5.052s] writing entry points to camera_pkg.egg-info/entry_points.txt
+[5.053s] writing requirements to camera_pkg.egg-info/requires.txt
+[5.053s] writing top-level names to camera_pkg.egg-info/top_level.txt
+[5.054s] writing manifest file 'camera_pkg.egg-info/SOURCES.txt'
+[5.061s] reading manifest file 'camera_pkg.egg-info/SOURCES.txt'
+[5.063s] writing manifest file 'camera_pkg.egg-info/SOURCES.txt'
+[5.069s] running build_ext
+[5.070s] Creating /home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/python3.10/site-packages/camera-pkg.egg-link (link to .)
+[5.074s] Installing camera_node script to /home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/camera_pkg
+[5.075s] 
+[5.076s] Installed /home/pi/Robot_server/ros2_ws/build/camera_pkg
+[5.077s] running install_data
+[5.077s] creating /home/pi/Robot_server/ros2_ws/install/camera_pkg/share/ament_index
+[5.077s] creating /home/pi/Robot_server/ros2_ws/install/camera_pkg/share/ament_index/resource_index
+[5.078s] creating /home/pi/Robot_server/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages
+[5.079s] copying resource/camera_pkg -> /home/pi/Robot_server/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages
+[5.080s] copying package.xml -> /home/pi/Robot_server/ros2_ws/install/camera_pkg/share/camera_pkg
+[5.207s] Invoked command in '/home/pi/Robot_server/ros2_ws/build/camera_pkg' returned '0': PYTHONPATH=/home/pi/Robot_server/ros2_ws/build/camera_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Robot_server/ros2_ws/build/camera_pkg/build --no-deps install_data
