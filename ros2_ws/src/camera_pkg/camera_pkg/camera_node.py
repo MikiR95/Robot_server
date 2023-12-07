@@ -17,9 +17,11 @@ class CameraPublisher(Node):
     def timer_callback(self):
         ret, frame = self.cap.read()
         if ret:
+            # Convert the frame to a ROS Image message
             img_msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
             self.publisher_.publish(img_msg)
-
+        else:
+            self.get_logger().warn("Failed to capture frame from the camera")
 
 def main(args=None):
     rclpy.init(args=args)
