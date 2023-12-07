@@ -4,3 +4,5 @@ rover_interfaces.egg-info/PKG-INFO
 rover_interfaces.egg-info/SOURCES.txt
 rover_interfaces.egg-info/dependency_links.txt
 rover_interfaces.egg-info/top_level.txt
+rover_interfaces/msg/__init__.py
+rover_interfaces/msg/_motor_control.py

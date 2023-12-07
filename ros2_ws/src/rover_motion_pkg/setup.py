@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "motor_control_node=rover_motion_pkg.motor_control_node:main"
         ],
     },
 )

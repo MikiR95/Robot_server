@@ -22,6 +22,9 @@ extern "C"
 #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/MotorControl in the package rover_interfaces.
+/**
+  * rover_interfaces/msg/MotorControl.msg
+ */
 typedef struct rover_interfaces__msg__MotorControl
 {
   int64_t speed;

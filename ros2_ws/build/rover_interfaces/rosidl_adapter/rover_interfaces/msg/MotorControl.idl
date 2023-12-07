@@ -5,6 +5,8 @@
 
 module rover_interfaces {
   module msg {
+    @verbatim (language="comment", text=
+      "rover_interfaces/msg/MotorControl.msg")
     struct MotorControl {
       int64 speed;
 

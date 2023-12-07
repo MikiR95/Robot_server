@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001610] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.002210] (-) JobUnselected: {'identifier': 'rover_interfaces'}
+[0.002686] (rover_motion_pkg) JobQueued: {'identifier': 'rover_motion_pkg', 'dependencies': OrderedDict([('rover_interfaces', '/home/pi/Robot_server/ros2_ws/install/rover_interfaces')])}
+[0.003040] (rover_motion_pkg) JobStarted: {'identifier': 'rover_motion_pkg'}
+[0.099202] (-) TimerEvent: {}
+[0.200088] (-) TimerEvent: {}
+[0.301268] (-) TimerEvent: {}
+[0.402268] (-) TimerEvent: {}
+[0.502960] (-) TimerEvent: {}
+[0.603609] (-) TimerEvent: {}
+[0.704273] (-) TimerEvent: {}
+[0.804903] (-) TimerEvent: {}
+[0.905572] (-) TimerEvent: {}
+[1.006243] (-) TimerEvent: {}
+[1.106938] (-) TimerEvent: {}
+[1.207601] (-) TimerEvent: {}
+[1.308374] (-) TimerEvent: {}
+[1.410428] (-) TimerEvent: {}
+[1.511326] (-) TimerEvent: {}
+[1.613821] (-) TimerEvent: {}
+[1.714941] (-) TimerEvent: {}
+[1.815699] (-) TimerEvent: {}
+[1.916393] (-) TimerEvent: {}
+[2.017072] (-) TimerEvent: {}
+[2.117727] (-) TimerEvent: {}
+[2.218476] (-) TimerEvent: {}
+[2.319142] (-) TimerEvent: {}
+[2.419891] (-) TimerEvent: {}
+[2.520623] (-) TimerEvent: {}
+[2.621315] (-) TimerEvent: {}
+[2.722025] (-) TimerEvent: {}
+[2.822809] (-) TimerEvent: {}
+[2.923508] (-) TimerEvent: {}
+[3.024302] (-) TimerEvent: {}
+[3.125122] (-) TimerEvent: {}
+[3.225872] (-) TimerEvent: {}
+[3.326637] (-) TimerEvent: {}
+[3.427388] (-) TimerEvent: {}
+[3.495438] (rover_motion_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.80 53882 22', 'LC_TIME': 'pl_PL.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/Robot_server', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pl_PL.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/Robot_server/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pl_PL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/home/pi/Robot_server/ros2_ws/install/rover_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'PWD': '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.80 53882 192.168.0.10 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/build/camera_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/Robot_server/ros2_ws/install/rover_interfaces'}, 'shell': False}
+[3.527566] (-) TimerEvent: {}
+[3.628387] (-) TimerEvent: {}
+[3.729044] (-) TimerEvent: {}
+[3.829731] (-) TimerEvent: {}
+[3.930411] (-) TimerEvent: {}
+[4.031326] (-) TimerEvent: {}
+[4.131983] (-) TimerEvent: {}
+[4.232640] (-) TimerEvent: {}
+[4.333305] (-) TimerEvent: {}
+[4.434027] (-) TimerEvent: {}
+[4.534723] (-) TimerEvent: {}
+[4.564307] (rover_motion_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.634871] (-) TimerEvent: {}
+[4.735504] (-) TimerEvent: {}
+[4.836135] (-) TimerEvent: {}
+[4.936749] (-) TimerEvent: {}
+[5.037407] (-) TimerEvent: {}
+[5.122995] (rover_motion_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.123692] (rover_motion_pkg) StdoutLine: {'line': b'writing rover_motion_pkg.egg-info/PKG-INFO\n'}
+[5.124607] (rover_motion_pkg) StdoutLine: {'line': b'writing dependency_links to rover_motion_pkg.egg-info/dependency_links.txt\n'}
+[5.125456] (rover_motion_pkg) StdoutLine: {'line': b'writing entry points to rover_motion_pkg.egg-info/entry_points.txt\n'}
+[5.126153] (rover_motion_pkg) StdoutLine: {'line': b'writing requirements to rover_motion_pkg.egg-info/requires.txt\n'}
+[5.126791] (rover_motion_pkg) StdoutLine: {'line': b'writing top-level names to rover_motion_pkg.egg-info/top_level.txt\n'}
+[5.133726] (rover_motion_pkg) StdoutLine: {'line': b"reading manifest file 'rover_motion_pkg.egg-info/SOURCES.txt'\n"}
+[5.137542] (-) TimerEvent: {}
+[5.138237] (rover_motion_pkg) StdoutLine: {'line': b"writing manifest file 'rover_motion_pkg.egg-info/SOURCES.txt'\n"}
+[5.143646] (rover_motion_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.144431] (rover_motion_pkg) StdoutLine: {'line': b'Creating /home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages/rover-motion-pkg.egg-link (link to .)\n'}
+[5.147710] (rover_motion_pkg) StdoutLine: {'line': b'Installing motor_control_node script to /home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/rover_motion_pkg\n'}
+[5.149139] (rover_motion_pkg) StdoutLine: {'line': b'\n'}
+[5.149808] (rover_motion_pkg) StdoutLine: {'line': b'Installed /home/pi/Robot_server/ros2_ws/build/rover_motion_pkg\n'}
+[5.150211] (rover_motion_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.150790] (rover_motion_pkg) StdoutLine: {'line': b'copying package.xml -> /home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/share/rover_motion_pkg\n'}
+[5.237861] (-) TimerEvent: {}
+[5.283725] (rover_motion_pkg) CommandEnded: {'returncode': 0}
+[5.337986] (-) TimerEvent: {}
+[5.438814] (-) TimerEvent: {}
+[5.534541] (rover_motion_pkg) JobEnded: {'identifier': 'rover_motion_pkg', 'rc': 0}
+[5.537388] (-) EventReactorShutdown: {}

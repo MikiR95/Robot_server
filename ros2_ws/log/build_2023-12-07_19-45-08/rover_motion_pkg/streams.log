@@ -1,0 +1,18 @@
+[3.496s] Invoking command in '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg': PYTHONPATH=/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Robot_server/ros2_ws/build/rover_motion_pkg/build --no-deps install_data
+[4.562s] running develop
+[5.120s] running egg_info
+[5.121s] writing rover_motion_pkg.egg-info/PKG-INFO
+[5.122s] writing dependency_links to rover_motion_pkg.egg-info/dependency_links.txt
+[5.123s] writing entry points to rover_motion_pkg.egg-info/entry_points.txt
+[5.123s] writing requirements to rover_motion_pkg.egg-info/requires.txt
+[5.124s] writing top-level names to rover_motion_pkg.egg-info/top_level.txt
+[5.131s] reading manifest file 'rover_motion_pkg.egg-info/SOURCES.txt'
+[5.136s] writing manifest file 'rover_motion_pkg.egg-info/SOURCES.txt'
+[5.141s] running build_ext
+[5.142s] Creating /home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages/rover-motion-pkg.egg-link (link to .)
+[5.145s] Installing motor_control_node script to /home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/rover_motion_pkg
+[5.147s] 
+[5.147s] Installed /home/pi/Robot_server/ros2_ws/build/rover_motion_pkg
+[5.148s] running install_data
+[5.148s] copying package.xml -> /home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/share/rover_motion_pkg
+[5.282s] Invoked command in '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg' returned '0': PYTHONPATH=/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Robot_server/ros2_ws/build/rover_motion_pkg/build --no-deps install_data
