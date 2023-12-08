@@ -1,0 +1,18 @@
+[3.370s] Invoking command in '/home/pi/Robot_server/ros2_ws/build/rover_control_pkg': PYTHONPATH=/home/pi/Robot_server/ros2_ws/build/rover_control_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/rover_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Robot_server/ros2_ws/build/rover_control_pkg/build --no-deps install_data
+[4.488s] running develop
+[5.091s] running egg_info
+[5.091s] writing rover_control_pkg.egg-info/PKG-INFO
+[5.093s] writing dependency_links to rover_control_pkg.egg-info/dependency_links.txt
+[5.094s] writing entry points to rover_control_pkg.egg-info/entry_points.txt
+[5.095s] writing requirements to rover_control_pkg.egg-info/requires.txt
+[5.096s] writing top-level names to rover_control_pkg.egg-info/top_level.txt
+[5.104s] reading manifest file 'rover_control_pkg.egg-info/SOURCES.txt'
+[5.107s] writing manifest file 'rover_control_pkg.egg-info/SOURCES.txt'
+[5.113s] running build_ext
+[5.114s] Creating /home/pi/Robot_server/ros2_ws/install/rover_control_pkg/lib/python3.10/site-packages/rover-control-pkg.egg-link (link to .)
+[5.117s] Installing joystick_node script to /home/pi/Robot_server/ros2_ws/install/rover_control_pkg/lib/rover_control_pkg
+[5.119s] 
+[5.119s] Installed /home/pi/Robot_server/ros2_ws/build/rover_control_pkg
+[5.120s] running install_data
+[5.120s] copying package.xml -> /home/pi/Robot_server/ros2_ws/install/rover_control_pkg/share/rover_control_pkg
+[5.254s] Invoked command in '/home/pi/Robot_server/ros2_ws/build/rover_control_pkg' returned '0': PYTHONPATH=/home/pi/Robot_server/ros2_ws/build/rover_control_pkg/prefix_override:/home/pi/Robot_server/ros2_ws/install/rover_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Robot_server/ros2_ws/build/rover_control_pkg/build --no-deps install_data
