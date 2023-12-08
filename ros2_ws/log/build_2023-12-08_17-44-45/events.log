@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.001661] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.002249] (-) JobUnselected: {'identifier': 'rover_motion_pkg'}
+[0.002616] (rover_interfaces) JobQueued: {'identifier': 'rover_interfaces', 'dependencies': OrderedDict()}
+[0.002988] (rover_interfaces) JobStarted: {'identifier': 'rover_interfaces'}
+[0.099213] (-) TimerEvent: {}
+[0.199912] (-) TimerEvent: {}
+[0.231830] (rover_interfaces) JobProgress: {'identifier': 'rover_interfaces', 'progress': 'cmake'}
+[0.237573] (rover_interfaces) JobProgress: {'identifier': 'rover_interfaces', 'progress': 'build'}
+[0.241016] (rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/Robot_server/ros2_ws/build/rover_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/pi/Robot_server/ros2_ws/build/rover_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.80 60496 22'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/Robot_server'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/Robot_server/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/home/pi/Robot_server/ros2_ws/install/rover_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('PWD', '/home/pi/Robot_server/ros2_ws/build/rover_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.80 60496 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/build/camera_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Robot_server/ros2_ws/install/rover_interfaces:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/opt/ros/humble')]), 'shell': False}
+[0.300189] (-) TimerEvent: {}
+[0.401345] (-) TimerEvent: {}
+[0.502119] (-) TimerEvent: {}
+[0.603144] (-) TimerEvent: {}
+[0.702350] (rover_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.703347] (-) TimerEvent: {}
+[0.804019] (-) TimerEvent: {}
+[0.904920] (-) TimerEvent: {}
+[1.005815] (-) TimerEvent: {}
+[1.106554] (-) TimerEvent: {}
+[1.207369] (-) TimerEvent: {}
+[1.308036] (-) TimerEvent: {}
+[1.377436] (rover_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.408275] (-) TimerEvent: {}
+[1.444759] (rover_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.457227] (rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.474734] (rover_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.508506] (-) TimerEvent: {}
+[1.609294] (-) TimerEvent: {}
+[1.673572] (rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.709464] (-) TimerEvent: {}
+[1.810161] (-) TimerEvent: {}
+[1.911002] (-) TimerEvent: {}
+[2.012034] (-) TimerEvent: {}
+[2.120978] (-) TimerEvent: {}
+[2.221685] (-) TimerEvent: {}
+[2.322357] (-) TimerEvent: {}
+[2.423048] (-) TimerEvent: {}
+[2.523674] (-) TimerEvent: {}
+[2.624460] (-) TimerEvent: {}
+[2.725364] (-) TimerEvent: {}
+[2.826183] (-) TimerEvent: {}
+[2.927170] (-) TimerEvent: {}
+[2.936690] (rover_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.027330] (-) TimerEvent: {}
+[3.128199] (-) TimerEvent: {}
+[3.229007] (-) TimerEvent: {}
+[3.329756] (-) TimerEvent: {}
+[3.430514] (-) TimerEvent: {}
+[3.531265] (-) TimerEvent: {}
+[3.632042] (-) TimerEvent: {}
+[3.732751] (-) TimerEvent: {}
+[3.785204] (rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.832960] (-) TimerEvent: {}
+[3.933637] (-) TimerEvent: {}
+[4.034276] (-) TimerEvent: {}
+[4.134936] (-) TimerEvent: {}
+[4.235738] (-) TimerEvent: {}
+[4.336540] (-) TimerEvent: {}
+[4.437323] (-) TimerEvent: {}
+[4.538103] (-) TimerEvent: {}
+[4.639426] (-) TimerEvent: {}
+[4.740298] (-) TimerEvent: {}
+[4.841038] (-) TimerEvent: {}
+[4.898921] (rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.941181] (-) TimerEvent: {}
+[5.008340] (rover_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.041351] (-) TimerEvent: {}
+[5.129793] (rover_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.130707] (rover_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.131310] (rover_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[5.141523] (-) TimerEvent: {}
+[5.242285] (-) TimerEvent: {}
+[5.255857] (rover_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.342447] (-) TimerEvent: {}
+[5.443180] (-) TimerEvent: {}
+[5.507188] (rover_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.526977] (rover_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/Robot_server/ros2_ws/build/rover_interfaces\n'}
+[5.543491] (-) TimerEvent: {}
+[5.644593] (-) TimerEvent: {}
+[5.651565] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.700292] (rover_interfaces) StdoutLine: {'line': b'[  3%] Built target rover_interfaces__cpp\n'}
+[5.734150] (rover_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_rover_interfaces\n'}
+[5.738769] (rover_interfaces) StdoutLine: {'line': b'[ 12%] Built target rover_interfaces__rosidl_generator_c\n'}
+[5.744826] (-) TimerEvent: {}
+[5.752429] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.764467] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.787008] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.845087] (-) TimerEvent: {}
+[5.866507] (rover_interfaces) StdoutLine: {'line': b'[ 29%] Built target rover_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.869948] (rover_interfaces) StdoutLine: {'line': b'[ 32%] Built target rover_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.902039] (rover_interfaces) StdoutLine: {'line': b'[ 41%] Built target rover_interfaces__rosidl_typesupport_cpp\n'}
+[5.917787] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.945338] (-) TimerEvent: {}
+[5.957425] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.964533] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.995772] (rover_interfaces) StdoutLine: {'line': b'[ 51%] Built target rover_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.020039] (rover_interfaces) StdoutLine: {'line': b'[ 61%] Built target rover_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.024536] (rover_interfaces) StdoutLine: {'line': b'[ 70%] Built target rover_interfaces__rosidl_typesupport_c\n'}
+[6.045507] (-) TimerEvent: {}
+[6.113193] (rover_interfaces) StdoutLine: {'line': b'[ 70%] Built target rover_interfaces\n'}
+[6.145898] (-) TimerEvent: {}
+[6.196392] (rover_interfaces) StdoutLine: {'line': b'[ 74%] Built target rover_interfaces__py\n'}
+[6.246145] (-) TimerEvent: {}
+[6.260059] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_generator_py\x1b[0m\n'}
+[6.332749] (rover_interfaces) StdoutLine: {'line': b'[ 80%] Built target rover_interfaces__rosidl_generator_py\n'}
+[6.346341] (-) TimerEvent: {}
+[6.378099] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.383505] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.395443] (rover_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.446530] (-) TimerEvent: {}
+[6.472070] (rover_interfaces) StdoutLine: {'line': b'[ 87%] Built target rover_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.477115] (rover_interfaces) StdoutLine: {'line': b'[ 93%] Built target rover_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.492159] (rover_interfaces) StdoutLine: {'line': b'[100%] Built target rover_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.546688] (-) TimerEvent: {}
+[6.647833] (-) TimerEvent: {}
+[6.748955] (-) TimerEvent: {}
+[6.850287] (-) TimerEvent: {}
+[6.951169] (-) TimerEvent: {}
+[7.052494] (-) TimerEvent: {}
+[7.069710] (rover_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.072416] (rover_interfaces) StdoutLine: {'line': b'writing rover_interfaces.egg-info/PKG-INFO\n'}
+[7.073561] (rover_interfaces) StdoutLine: {'line': b'writing dependency_links to rover_interfaces.egg-info/dependency_links.txt\n'}
+[7.074763] (rover_interfaces) StdoutLine: {'line': b'writing top-level names to rover_interfaces.egg-info/top_level.txt\n'}
+[7.098476] (rover_interfaces) StdoutLine: {'line': b"reading manifest file 'rover_interfaces.egg-info/SOURCES.txt'\n"}
+[7.104108] (rover_interfaces) StdoutLine: {'line': b"writing manifest file 'rover_interfaces.egg-info/SOURCES.txt'\n"}
+[7.152831] (-) TimerEvent: {}
+[7.229530] (rover_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rover_interfaces_egg\n'}
+[7.253070] (-) TimerEvent: {}
+[7.272589] (rover_interfaces) CommandEnded: {'returncode': 0}
+[7.353331] (-) TimerEvent: {}
+[7.455318] (-) TimerEvent: {}
+[7.557004] (-) TimerEvent: {}
+[7.657787] (-) TimerEvent: {}
+[7.742602] (rover_interfaces) JobProgress: {'identifier': 'rover_interfaces', 'progress': 'install'}
+[7.757987] (-) TimerEvent: {}
+[7.780420] (rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/Robot_server/ros2_ws/build/rover_interfaces'], 'cwd': '/home/pi/Robot_server/ros2_ws/build/rover_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.80 60496 22'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/Robot_server'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/Robot_server/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/home/pi/Robot_server/ros2_ws/install/rover_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('PWD', '/home/pi/Robot_server/ros2_ws/build/rover_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.80 60496 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/Robot_server/ros2_ws/build/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/build/camera_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg/lib/python3.10/site-packages:/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Robot_server/ros2_ws/install/rover_interfaces:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/opt/ros/humble')]), 'shell': False}
+[7.809346] (rover_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.811613] (rover_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.813995] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/rosidl_interfaces/rover_interfaces\n'}
+[7.823302] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__functions.h\n'}
+[7.824330] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__struct.h\n'}
+[7.824901] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__type_support.h\n'}
+[7.825454] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/motor_control.h\n'}
+[7.825954] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.826448] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.sh\n'}
+[7.826899] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.dsv\n'}
+[7.838409] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h\n'}
+[7.842255] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.843071] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_introspection_c.h\n'}
+[7.843891] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.844555] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__builder.hpp\n'}
+[7.850057] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__struct.hpp\n'}
+[7.850925] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__traits.hpp\n'}
+[7.855933] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/motor_control.hpp\n'}
+[7.857057] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.858138] (-) TimerEvent: {}
+[7.858720] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.861725] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.862556] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.sh\n'}
+[7.863363] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.dsv\n'}
+[7.864172] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.865015] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.865730] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.876378] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.877579] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/__init__.py\n'}
+[7.878498] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.879290] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.884067] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.885184] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/librover_interfaces__rosidl_generator_py.so\n'}
+[7.886004] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg/__init__.py\n'}
+[7.886581] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg/_motor_control.py\n'}
+[7.892762] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg/_motor_control_s.c\n'}
+[7.893881] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.895115] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.895934] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.896822] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.897892] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.898739] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.916183] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/msg/MotorControl.idl\n'}
+[7.917814] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/msg/MotorControl.msg\n'}
+[7.919251] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/package_run_dependencies/rover_interfaces\n'}
+[7.920418] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/parent_prefix_path/rover_interfaces\n'}
+[7.921423] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.sh\n'}
+[7.927013] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.927881] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/path.sh\n'}
+[7.928806] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/path.dsv\n'}
+[7.929819] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.bash\n'}
+[7.930595] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.sh\n'}
+[7.931246] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.zsh\n'}
+[7.931913] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.dsv\n'}
+[7.932508] (rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/package.dsv\n'}
+[7.958390] (-) TimerEvent: {}
+[7.989024] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/packages/rover_interfaces\n'}
+[7.991685] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.992581] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.995487] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.009646] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.011131] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.012115] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.013438] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.014509] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig.cmake\n'}
+[8.015305] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig-version.cmake\n'}
+[8.015893] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/package.xml\n'}
+[8.016432] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_c.so\n'}
+[8.026883] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.030994] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.035695] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_c.so\n'}
+[8.053689] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.058507] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.059322] (-) TimerEvent: {}
+[8.062878] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.159555] (-) TimerEvent: {}
+[8.260482] (-) TimerEvent: {}
+[8.322189] (rover_interfaces) StdoutLine: {'line': b"Listing '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces'...\n"}
+[8.324641] (rover_interfaces) StdoutLine: {'line': b"Compiling '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/__init__.py'...\n"}
+[8.325985] (rover_interfaces) StdoutLine: {'line': b"Listing '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg'...\n"}
+[8.360893] (-) TimerEvent: {}
+[8.374284] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_py.so\n'}
+[8.382156] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.385246] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.388110] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.389007] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.392610] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.399869] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.401011] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.401831] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.402841] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.410415] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.411256] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.412103] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.412962] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.414028] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.415489] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.416477] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.417727] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.437334] (rover_interfaces) CommandEnded: {'returncode': 0}
+[8.461248] (-) TimerEvent: {}
+[8.562298] (-) TimerEvent: {}
+[8.664340] (-) TimerEvent: {}
+[8.765938] (-) TimerEvent: {}
+[8.867967] (-) TimerEvent: {}
+[8.969093] (-) TimerEvent: {}
+[9.070080] (-) TimerEvent: {}
+[9.171442] (-) TimerEvent: {}
+[9.272795] (-) TimerEvent: {}
+[9.373763] (-) TimerEvent: {}
+[9.478063] (-) TimerEvent: {}
+[9.579743] (-) TimerEvent: {}
+[9.683575] (-) TimerEvent: {}
+[9.785993] (-) TimerEvent: {}
+[9.850347] (rover_interfaces) JobEnded: {'identifier': 'rover_interfaces', 'rc': 0}
+[9.857144] (-) EventReactorShutdown: {}

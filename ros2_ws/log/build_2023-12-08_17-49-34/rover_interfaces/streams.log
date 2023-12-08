@@ -1,0 +1,118 @@
+[0.228s] Invoking command in '/home/pi/Robot_server/ros2_ws/build/rover_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/Robot_server/ros2_ws/build/rover_interfaces -- -j4 -l4
+[0.442s] [  3%] Built target rover_interfaces__cpp
+[0.450s] [ 12%] Built target rover_interfaces__rosidl_generator_c
+[0.478s] [ 12%] Built target ament_cmake_python_symlink_rover_interfaces
+[0.540s] [ 22%] Built target rover_interfaces__rosidl_typesupport_cpp
+[0.550s] [ 32%] Built target rover_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.555s] [ 41%] Built target rover_interfaces__rosidl_typesupport_introspection_cpp
+[0.598s] [ 51%] Built target rover_interfaces__rosidl_typesupport_fastrtps_c
+[0.637s] [ 61%] Built target rover_interfaces__rosidl_typesupport_introspection_c
+[0.642s] [ 70%] Built target rover_interfaces__rosidl_typesupport_c
+[0.720s] [ 70%] Built target rover_interfaces
+[0.810s] [ 74%] Built target rover_interfaces__py
+[0.902s] [ 80%] Built target rover_interfaces__rosidl_generator_py
+[1.008s] [ 87%] Built target rover_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.019s] [100%] Built target rover_interfaces__rosidl_typesupport_c__pyext
+[1.019s] [100%] Built target rover_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.656s] running egg_info
+[1.658s] writing rover_interfaces.egg-info/PKG-INFO
+[1.659s] writing dependency_links to rover_interfaces.egg-info/dependency_links.txt
+[1.660s] writing top-level names to rover_interfaces.egg-info/top_level.txt
+[1.669s] reading manifest file 'rover_interfaces.egg-info/SOURCES.txt'
+[1.671s] writing manifest file 'rover_interfaces.egg-info/SOURCES.txt'
+[1.787s] [100%] Built target ament_cmake_python_build_rover_interfaces_egg
+[1.827s] Invoked command in '/home/pi/Robot_server/ros2_ws/build/rover_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/Robot_server/ros2_ws/build/rover_interfaces -- -j4 -l4
+[2.240s] Invoking command in '/home/pi/Robot_server/ros2_ws/build/rover_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/Robot_server/ros2_ws/build/rover_interfaces
+[2.267s] -- Install configuration: ""
+[2.269s] -- Execute custom install script
+[2.270s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/rosidl_interfaces/rover_interfaces
+[2.273s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__functions.h
+[2.274s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__struct.h
+[2.275s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__type_support.h
+[2.275s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/motor_control.h
+[2.276s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.278s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.sh
+[2.278s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.dsv
+[2.281s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+[2.282s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.285s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_introspection_c.h
+[2.286s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.288s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__builder.hpp
+[2.289s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__struct.hpp
+[2.290s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__traits.hpp
+[2.291s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/motor_control.hpp
+[2.294s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.295s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.297s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+[2.298s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.sh
+[2.299s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.dsv
+[2.301s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.302s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.303s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.304s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.308s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/__init__.py
+[2.309s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_c.c
+[2.310s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.311s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.312s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/librover_interfaces__rosidl_generator_py.so
+[2.313s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg/__init__.py
+[2.314s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg/_motor_control.py
+[2.315s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg/_motor_control_s.c
+[2.316s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.317s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.318s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.319s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.321s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.323s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.324s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/msg/MotorControl.idl
+[2.325s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/msg/MotorControl.msg
+[2.326s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/package_run_dependencies/rover_interfaces
+[2.327s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/parent_prefix_path/rover_interfaces
+[2.328s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.sh
+[2.329s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.dsv
+[2.330s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/path.sh
+[2.331s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/environment/path.dsv
+[2.332s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.bash
+[2.333s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.sh
+[2.334s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.zsh
+[2.335s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/local_setup.dsv
+[2.335s] -- Symlinking: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/package.dsv
+[2.367s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/ament_index/resource_index/packages/rover_interfaces
+[2.368s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.369s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.370s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.371s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.372s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.373s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.374s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.375s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig.cmake
+[2.376s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig-version.cmake
+[2.377s] -- Up-to-date symlink: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/package.xml
+[2.378s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_c.so
+[2.381s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.383s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_c.so
+[2.385s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_c.so
+[2.387s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.389s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.391s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_cpp.so
+[2.543s] Listing '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces'...
+[2.545s] Listing '/home/pi/Robot_server/ros2_ws/install/rover_interfaces/local/lib/python3.10/dist-packages/rover_interfaces/msg'...
+[2.574s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_py.so
+[2.576s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport.cmake
+[2.577s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.578s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.578s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.579s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.580s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.581s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport.cmake
+[2.582s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.583s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cppExport.cmake
+[2.584s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.586s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.587s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.588s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.594s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport.cmake
+[2.599s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.603s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport.cmake
+[2.606s] -- Up-to-date: /home/pi/Robot_server/ros2_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.613s] Invoked command in '/home/pi/Robot_server/ros2_ws/build/rover_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Robot_server/ros2_ws/install/rover_motion_pkg:/home/pi/Robot_server/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/Robot_server/ros2_ws/build/rover_interfaces

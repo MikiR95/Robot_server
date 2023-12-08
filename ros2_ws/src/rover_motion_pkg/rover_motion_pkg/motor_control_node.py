@@ -3,11 +3,14 @@ from rclpy.node import Node
 from rover_interfaces.msg import MotorControl
 import RPi.GPIO as GPIO
 
-class MotorControl(Node):
+class MotorControlNode(Node):
     def __init__(self):
         super().__init__("motor_control_node")
         self.subscriber_ = self.create_subscription(MotorControl, 'motor_control_topic', self.motor_callback, 10)
-        self.get_logger().info("Motor control subscriber node has been started")
+        self.motor_init()
+        self.get_logger().info("Motor control subscriber node has been started")   
+
+    def motor_init(self):
 
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
@@ -60,12 +63,11 @@ class MotorControl(Node):
         self.pRL.start(25)
 
     def motor_callback(self, msg):
-        msg = MotorControl()
         speed = msg.speed
         direction = msg.direction
 
         # Process the received message and control your DC motor here
-        self.get_logger().info('Received motor control command: speed=%d, direction=%s' % (speed, direction))
+        self.get_logger().info(f'Received motor control command: speed={speed}, direction={direction}')
 
         if msg.direction == "stop":  # Stop
             GPIO.output(self.F_in1_R, GPIO.LOW)
@@ -120,7 +122,7 @@ class MotorControl(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = MotorControl()
+    node = MotorControlNode()
     rclpy.spin(node)
     rclpy.shutdown()
 
