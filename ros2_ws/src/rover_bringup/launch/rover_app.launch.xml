@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="rover_motion_pkg" exec="motor_control_node"/>
+    <node pkg="rover_control_pkg" exec="joystick_node"/>
+</launch>

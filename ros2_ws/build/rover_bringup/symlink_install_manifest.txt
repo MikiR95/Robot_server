@@ -1,0 +1,16 @@
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/launch/rover_app.launch.xml
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/ament_index/resource_index/package_run_dependencies/rover_bringup
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/ament_index/resource_index/parent_prefix_path/rover_bringup
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/environment/ament_prefix_path.sh
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/environment/ament_prefix_path.dsv
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/environment/path.sh
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/environment/path.dsv
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.bash
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.sh
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.zsh
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.dsv
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/package.dsv
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/ament_index/resource_index/packages/rover_bringup
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/cmake/rover_bringupConfig.cmake
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/cmake/rover_bringupConfig-version.cmake
+/home/pi/Robot_server/ros2_ws/install/rover_bringup/share/rover_bringup/package.xml
